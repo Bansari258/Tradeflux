@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaArrowRightLong } from "react-icons/fa6";
-
+import {Link} from 'react-router-dom'
 function Stats() {
   return (
      <div className="container p-3">
@@ -32,14 +32,14 @@ function Stats() {
         <div className="col-6 p-5">
           <img src="images/ecosystem.png" style={{ width: "90%" }} />
           <div className="text-center">
-            <a href="" className="mx-5" style={{ textDecoration: "none" }}>
+            <Link to="/" className="mx-5" style={{ textDecoration: "none" }}>
               Explore our products{" "}
               <FaArrowRightLong />
-            </a>
-            <a href="" style={{ textDecoration: "none" }}>
+            </Link>
+            <Link to="/" style={{ textDecoration: "none" }}>
               Try Kite demo{" "}
               <FaArrowRightLong />
-            </a>
+            </Link>
           </div>
         </div>
       </div>

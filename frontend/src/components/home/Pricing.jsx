@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaArrowRightLong } from "react-icons/fa6";
-
+import {Link} from 'react-router-dom'
 function Pricing() {
   return (
     <div className="container ">
@@ -11,10 +11,10 @@ function Pricing() {
             We pioneered the concept of discount broking and price transparency
             in India. Flat fees and no hidden charges.
           </p>
-          <a href="" style={{ textDecoration: "none" }}>
+          <Link to="/" style={{ textDecoration: "none" }}>
             See Pricing{" "}
             <FaArrowRightLong />
-          </a>
+          </Link>
         </div>
         <div className="col-2"></div>
         <div className="col-6  mb-5">

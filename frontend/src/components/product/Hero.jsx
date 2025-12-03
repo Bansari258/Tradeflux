@@ -11,7 +11,7 @@ function Hero() {
         </h3>
         <p className="mt-3 mb-5">
           Check out our{" "}
-          <Link to="" style={{ textDecoration: "none" }}>
+          <Link to="/" style={{ textDecoration: "none" }}>
             investment offerings{" "}
             <FaArrowRightLong />
           </Link>
